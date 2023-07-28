@@ -1,0 +1,27 @@
+{
+  "name": "ytmusic-metadata",
+  "version": "0.0.1",
+  "description": "Light version of youtube music metadata using Node-ID3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thoriqazzikraa/ytmusic-metadata.git"
+  },
+  "keywords": [],
+  "author": "Thoriq Azzikra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thoriqazzikraa/ytmusic-metadata/issues"
+  },
+  "homepage": "https://github.com/thoriqazzikraa/ytmusic-metadata#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "node-fetch": "2.6.6",
+    "node-id3": "^0.2.6",
+    "y2matejs": "^1.0.0",
+    "youtube-music-api": "^1.0.6"
+  }
+}
