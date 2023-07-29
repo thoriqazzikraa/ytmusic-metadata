@@ -6,7 +6,7 @@ const youtube = require("youtube-music-api");
 const yt = new youtube();
 const { yta, ytv } = require("y2matejs");
 
-async function searchTrack(query) {
+async function searchTrack(query, type) {
   function _0x36a8(_0x3f21d9, _0x5d073e) {
     const _0x4efc13 = _0x3e68();
     return (
