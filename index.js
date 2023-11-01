@@ -6,12 +6,13 @@ const yt = new youtube();
 const { ytmp3, ytmp4 } = require("@nechlophomeriaa/ytdl");
 const stringFunction = require("./function");
 
-async function searchTrack(query) {
+async function searchTrack(query, type) {
   return new Promise(async (resolve, reject) => {
     await yt
       .initalize()
       .then(async () => {
-        const search = await yt.search(query, "song");
+	const typee = type ? type : "song"
+        const search = await yt.search(query, typee);
         resolve(search.content);
       })
       .catch((err) => {
